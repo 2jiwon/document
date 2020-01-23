@@ -165,3 +165,28 @@ git pull https://github.com/byapps-laravel-cms/byapps-cms-beta
 ## 1-3. Pull Request(Merge Request) 여는 방법
 
 github에서 Pull Request가 gitlab에서는 Merge Request에 해당한다.  
+
+### 1) 메뉴에서 Merge Request 선택
+
+![image](./img/GitLab004.png)  
+
+### 2) Source branch를 선택하고 Target branch를 확인
+
+![image](./img/GitLab005.png)  
+
+### 3) Merge 하려는 커밋내역 확인 후 continue
+
+![image](./img/GitLab006.png)
+
+Assignee는 Request를 확인할 사람을 지정하는 곳이나, 특별히 필요하지 않다면 건너뛰어도 무방.  
+Description에는 request 내역을 간단하게 적고(수정한 사항) 필요하다면 Label을 붙인다.  
+
+![image](./img/GitLab007.png)
+
+### 4) 이상이 없다면 확인 후 Merge  
+
+*확인자가 필요한 프로젝트의 경우, 4번의 내용은 변경될 수 있다*
+
+![image](./img/GitLab008.png)
+
+### 5) 다시 작업 시작하기 전, 반드시 git pull로 변경사항을 반영  
